@@ -1,0 +1,23 @@
+
+---
+
+### **2. 29_APIBurstTracker**  
+**Description:**  
+Tracks latency bursts and error surges across batches of API endpoints.
+
+#### **README.md**
+```markdown
+# APIBurstTracker - Endpoint Surge Monitor
+
+APIBurstTracker monitors latency fluctuations and availability dips across multiple APIs.
+
+## Features
+- Real-time burst detection  
+- Latency + status tracking  
+- Export to JSON / CSV  
+
+## Usage
+```bash
+git clone https://github.com/your-username/29_APIBurstTracker.git
+cd 29_APIBurstTracker
+python monitor.py
