@@ -1,0 +1,23 @@
+
+---
+
+### **3. 29_LogMirrorStack**  
+**Description:**  
+Surfaces repeating logs and mirrored patterns to detect cyclic failures and warnings.
+
+#### **README.md**
+```markdown
+# LogMirrorStack - Pattern & Cycle Log Analyzer
+
+LogMirrorStack helps detect mirrored logs, loops, and high-frequency alert patterns for systems analysis.
+
+## Features
+- Pattern grouping  
+- Frequency charts  
+- CLI with filters  
+
+## Usage
+```bash
+git clone https://github.com/your-username/29_LogMirrorStack.git
+cd 29_LogMirrorStack
+python analyze.py
