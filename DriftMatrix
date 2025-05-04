@@ -1,0 +1,19 @@
+
+Monitors multiple APIs organized in a matrix structure to detect drift, latency spikes, and outage clusters.
+
+#### **README.md**
+```markdown
+# APIDriftMatrix - Endpoint Health Drift Tracker
+
+APIDriftMatrix surfaces hidden shifts in API response time and tracks downtime patterns across a large network.
+
+## Features
+- Matrix-configurable endpoints  
+- Drift + burst alerts  
+- CSV / JSON reporting  
+
+## Usage
+```bash
+git clone https://github.com/your-username/25_APIDriftMatrix.git
+cd 25_APIDriftMatrix
+python monitor.py
