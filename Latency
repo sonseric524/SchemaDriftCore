@@ -1,0 +1,19 @@
+
+Scans multiple APIs for spike events, latency bursts, and error surges in real-time.
+
+#### **README.md**
+```markdown
+# APISpikeRadar - Latency Spike and Error Burst Detector
+
+APISpikeRadar identifies and logs sudden latency increases, failures, or availability gaps in APIs.
+
+## Features
+- Spike/burst detection  
+- Parallel endpoint scans  
+- CSV / JSON logs  
+
+## Usage
+```bash
+git clone https://github.com/your-username/30_APISpikeRadar.git
+cd 30_APISpikeRadar
+python monitor.py
